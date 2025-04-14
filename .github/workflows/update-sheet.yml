@@ -29,4 +29,4 @@ jobs:
           credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
 
       - name: Run the script
-        run: python your_script.py
+        run: python script.py
