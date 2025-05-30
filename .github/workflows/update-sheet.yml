@@ -2,8 +2,8 @@ name: Update Google Sheet
 
 on:
   workflow_dispatch: # allows manual run
-  schedule:
-    - cron: '0 * * * *' # runs every hour
+  # schedule:
+  #  - cron: '0 * * * *' # runs every hour
 
 jobs:
   update-sheet:
